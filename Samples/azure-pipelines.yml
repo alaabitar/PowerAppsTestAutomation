@@ -56,7 +56,7 @@ jobs:
     value: true
     # FileName where TestAutomationURLs are stored in JSON format
   - name: TestUrlFileName 
-    value:  Samples/TestAutomationURLs.json
+    value:  TestAutomationURLs.json
     # Project name of repo containing TestAutomationURLs (spaces should be encoded as %20)
     # Example: Contoso Test Framework --> Contoso%20Test%20Framework
   - name: LocalProjectName
