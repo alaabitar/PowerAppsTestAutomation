@@ -20,7 +20,8 @@ steps:
    
        # Verify Screen Resolution is set to 1920x1080
        Get-DisplayResolution
-
+       echo "ChromeWebDriver" $(ChromeWebDriver)
+       
       ignoreLASTEXITCODE: true
 
       displayName: 'Set Agent Screen Resolution to 1920x1080'
